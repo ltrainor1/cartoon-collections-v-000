@@ -1,9 +1,10 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
-endhttps://learn.co/tracks/full-stack-web-development-v3/procedural-ruby/iteration/cartoon-collections-lab#
+def roll_call_dwarves(array)
+  array.each{|x| puts x}
+end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(array)
+  new_array = []
+  array.each{|x| new_array << 
 end
 
 def long_planeteer_calls# code an argument here
