@@ -10,10 +10,10 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  include_long = false 
+  long = false 
   i = 0 
   while i < array.length
-    include_long = true if 
+      long = true if 
       yield(array[i])
       i += 1 
   end 
