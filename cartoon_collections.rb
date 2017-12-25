@@ -10,8 +10,12 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  include_ long = array.include? {|x| x.length > 4}
-  include_long 
+  include_ long = false 
+  i = 0 
+  while i < array.length
+    include_long = true if 
+      yield(array[i])
+  end 
 end
 long_planeteer_calls([1,2,3,4]) do |x|
   
