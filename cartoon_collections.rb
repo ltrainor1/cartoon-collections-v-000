@@ -19,7 +19,7 @@ def long_planeteer_calls(array)
   end 
 end
 
-long_planeteer_calls([1,2,3,4]) do |x|
+long_planeteer_calls(["a","b","c"]) do |x|
   x.length > 4 
 end 
 
