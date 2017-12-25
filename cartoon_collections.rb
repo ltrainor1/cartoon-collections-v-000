@@ -15,6 +15,7 @@ def long_planeteer_calls(array)
   while i < array.length
     include_long = true if 
       yield(array[i])
+      i += 1 
   end 
 end
 long_planeteer_calls([1,2,3,4]) do |x|
