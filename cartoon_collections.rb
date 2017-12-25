@@ -28,7 +28,7 @@ def find_the_cheese(array)
   i = 0 
   cheese = nil 
   while i < 3 
-    cheese = true if 
+    cheese = cheese_types[i] if 
       array.include?(cheese_types[i])
     i += 1 
   end 
