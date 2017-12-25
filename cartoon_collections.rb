@@ -15,6 +15,7 @@ def long_planeteer_calls(array)
         array[i].length > 4 
       i += 1 
   end 
+  long 
 end
 
 
